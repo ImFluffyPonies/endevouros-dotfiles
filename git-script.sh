@@ -13,6 +13,7 @@ git add waybar/
 git add wofi/
 git add hypr/
 git add zed/settings.json
+git add starship.toml
 
 echo "Enter commit message: "
 read commit_message

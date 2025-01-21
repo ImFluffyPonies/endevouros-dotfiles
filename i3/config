@@ -29,9 +29,9 @@ gaps outer 2
 for_window [class=".*"] border pixel 3
 
 #border colors
-client.focused #e46876 #e46876 #e46876 #e46876 #e46876
-client.focused_inactive #e46876 #e46876 #e46876 #e46876 #e46876
-client.unfocused #e46876 #e46876 #e46876 #e46876 #e46876
+client.focused #c5c9c5 #c5c9c5 #c5c9c5 #c5c9c5 #c5c9c5
+client.focused_inactive #c5c9c5 #c5c9c5 #c5c9c5 #c5c9c5 #c5c9c5
+client.unfocused #181616 #181616 #181616 #181616 #181616
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
