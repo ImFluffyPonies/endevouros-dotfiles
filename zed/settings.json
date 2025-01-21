@@ -1,0 +1,54 @@
+{
+  "languages": {
+    "Go": {
+      "show_inline_completions": true
+    }
+  },
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2"
+  },
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "outline_panel": {
+    "dock": "right"
+  },
+  "project_panel": {
+    "dock": "right"
+  },
+  "show_inline_completions": true,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "vim_mode": true,
+  "relative_line_numbers": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Kanagawa Wave"
+  },
+  "autosave": "on_focus_change",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "current_line_highlight": "none",
+  "indent_guides": {
+    "enabled": false
+  },
+  "tab_bar": {
+    "show": true
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+    "selections_menu": false
+  },
+  "scrollbar": {
+    "show": "never"
+  }
+}
