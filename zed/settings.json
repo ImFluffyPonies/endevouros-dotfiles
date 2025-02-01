@@ -1,15 +1,6 @@
 {
-  "languages": {
-    "Go": {
-      "show_inline_completions": true
-    }
-  },
-  "assistant": {
-    "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-4o"
-    },
-    "version": "2"
+  "terminal": {
+    "dock": "bottom"
   },
   "collaboration_panel": {
     "dock": "right"
@@ -20,34 +11,65 @@
   "project_panel": {
     "dock": "right"
   },
+
+  "base_keymap": "VSCode",
+
+  "assistant": {
+    "dock": "left",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-3-5-sonnet"
+    },
+    "version": "2"
+  },
   "show_inline_completions": true,
+
   "telemetry": {
     "diagnostics": false,
     "metrics": false
   },
+
   "vim_mode": true,
   "relative_line_numbers": true,
-  "ui_font_size": 16,
-  "buffer_font_size": 14,
+
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Kanagawa Wave"
+    "dark": "Kanagawa Dragon"
+  },
+
+  "experimental.theme_overrides": {
+    "syntax": {
+      "keyword": {
+        "font_style": "normal"
+      },
+      "function": {
+        "font_style": "normal"
+      }
+    }
   },
   "autosave": "on_focus_change",
+
   "buffer_font_family": "JetBrainsMono Nerd Font",
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+
   "current_line_highlight": "none",
+
   "indent_guides": {
     "enabled": false
   },
+
   "tab_bar": {
     "show": true
   },
+
   "toolbar": {
     "breadcrumbs": false,
     "quick_actions": false,
     "selections_menu": false
   },
+
   "scrollbar": {
     "show": "never"
   }

@@ -26,11 +26,11 @@ gaps inner 4
 gaps outer 2
 
 #border width
-for_window [class=".*"] border pixel 3
+for_window [class=".*"] border pixel 2
 
 #border colors
-client.focused #c5c9c5 #c5c9c5 #c5c9c5 #c5c9c5 #c5c9c5
-client.focused_inactive #c5c9c5 #c5c9c5 #c5c9c5 #c5c9c5 #c5c9c5
+client.focused #e46876 #e46876 #e46876 #e46876 #e46876
+client.focused_inactive #e46876 #e46876 #e46876 #e46876 #e46876
 client.unfocused #181616 #181616 #181616 #181616 #181616
 
 # Use pactl to adjust volume in PulseAudio.

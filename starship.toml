@@ -1,5 +1,5 @@
 format = '''
-[╭─](bold #a292a3) $all'''
+[╭─](bold #333333) $all'''
 
 [aws]
 symbol = "  "
@@ -11,8 +11,8 @@ symbol = " "
 symbol = " "
 
 [character]
-success_symbol = "[╰─](bold #a292a3)"
-error_symbol = "[╰─](bold #a292a3)"
+success_symbol = "[╰─](bold #333333)"
+error_symbol = "[╰─](bold #333333)"
 
 [cmake]
 symbol = " "
