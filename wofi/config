@@ -1,6 +1,5 @@
 width=600
 height=400
-mode=run
+mode=drun
 colors=colors
 filter_rate=100
-allow_images=true

@@ -19,7 +19,7 @@
   padding: 0 10px;
   margin-bottom: 5px;
   margin-top: 5px;
-  color: #e46876;
+  color: #c5c9c5;
   /* font-family: "JetBrainsMono Nerd Font"; */
 }
 
@@ -33,7 +33,7 @@
   padding: 0 10px;
   margin-bottom: 5px;
   margin-top: 5px;
-  color: #e46876;
+  color: #c5c9c5;
 }
 
 #clock {
@@ -48,20 +48,20 @@
 }
 
 #workspaces button {
-  color: #e46876;
+  color: #c5c9c5;
   padding: 0 6px;
 }
 
 #workspaces button.focused {
   color: #181616;
-  background-color: #e46876;
+  background-color: #c5c9c5;
   border-radius: 10px;
   /* padding: 0 2px; */
 }
 
 #workspaces button.active {
   color: #181616;
-  background-color: #e46876;
+  background-color: #c5c9c5;
   padding: 0 6px;
   border-radius: 20px;
 }
